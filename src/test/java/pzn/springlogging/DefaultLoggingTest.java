@@ -31,4 +31,7 @@ public class DefaultLoggingTest {
         }
     }
     //hati hati jalaninnya, bisa lebih dari 1000 file
+
+    //Jika tidak ingin menggunakan konfigurasi yang disediakan springboot, bisa membuat file logback.xml
+    //namun tidak di anjurkan karena lebih rumit, dan lebih mudah menggunakan properties, yang selama ini dipelajari
 }
