@@ -1,0 +1,2 @@
+2024-11-13T10:07:30.861+07:00  WARN 1799 --- [spring-logging] [main] pzn.springlogging.DefaultLoggingTest     : java logging
+2024-11-13T10:07:30.862+07:00 ERROR 1799 --- [spring-logging] [main] pzn.springlogging.DefaultLoggingTest     : jav(a)
