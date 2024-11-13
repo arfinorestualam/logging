@@ -22,4 +22,13 @@ public class DefaultLoggingTest {
         //ketika di jalankan, akan muncul default logging dimana ada tanggal, waktu
         //dan jenis log (level), process id, thread, class, dan pesan log.
     }
+
+    //membuat test untuk rolling
+    @Test
+    void testLongLogging() {
+        for (int i = 0; i < 100_000; i++) {
+            log.warn("Hello {}", i);
+        }
+    }
+    //hati hati jalaninnya, bisa lebih dari 1000 file
 }
